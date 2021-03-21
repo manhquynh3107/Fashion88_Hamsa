@@ -1,0 +1,140 @@
+@font-face
+{
+    src: url("/fonts/gothamhtf-bold-webfont.ttf");
+    font-family: Gotham;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    box-sizing: border-box;
+}
+.position-general
+{
+    position: absolute;
+    text-transform: uppercase;
+}
+.banner
+{
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 852px;
+    z-index: 1;
+}
+h1
+{
+    font: 70px/0.457 "Gotham";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    left: 422.937px;
+    top: 384.005px;
+    z-index: 17;
+    letter-spacing: 0.18cm;
+    cursor: pointer;
+}
+.menu-banner
+{
+    font: 16.735px/2.85 "Gotham";
+    color: rgb(0, 0, 0);
+    left: 50.622px;
+    top: 149.22px;
+    z-index: 11;
+    list-style-type: none;
+    letter-spacing: 0.0655cm;
+}
+.menu-banner a
+{
+    text-decoration: none;
+    color: #000;
+}
+.content
+{
+    padding-top: 852px;
+}
+.content-tag
+{
+    padding: 29px 340px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer-code-sale
+{
+    font: 9.735px/3.287 "Gotham";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 95px;
+    padding-top: 71px;
+    z-index: 15;
+}
+.submit-input
+{
+    width: 47px;
+    height: 46px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-code-sale i
+{
+    padding: 14px;
+    cursor: pointer;
+}
+h2.sale-advertisement
+{
+    font: 17.8px/2.89 "Gotham";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 47px;
+    z-index: 15;
+}
+input.code-sale
+{
+    width: 487px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.customer-care 
+{
+    font: 14.735px/1.2 "Gotham";
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    left: 1212.716px;
+    top: 2027.939px;
+    z-index: 28;
+}
+.customer-care ul
+{
+    list-style-type: none;
+    padding-top: 20px;
+    text-transform: none;
+}
+.customer-care ul a
+{
+    text-decoration: none;
+    color: #000;
+}
+.company-info
+{
+    font: 12px/1.789 "Myriad Pro";
+    color: rgb(0, 0, 0);
+    left: 444.94px;
+    top: 2207.418px;
+    z-index: 29;
+}
+.company-info
+{
+    position: absolute;
+    left: 320px;
+}
+.company-info a
+{
+    text-decoration: none;
+    color: #000;
+}
